@@ -19,8 +19,8 @@ a duração do gameloop fizeram que a gameplay ficasse flúida e o FPS se mantes
 constante, sem nenhum gargalo.
 
 Game Juice
-[ ] - trocar o ultimo obst
-[ ] - squash & stretch do player ( usar tweens) 
+[X] - trocar o ultimo obst
+[X] - squash & stretch do player ( usar tweens) 
 [ ] - dar display em animação de fumaça (single time)
 [ ] - explorar a mecânica de "afundar" ( seta pra baixo e ventoinha )
 [ ] - feedback visual de morte 

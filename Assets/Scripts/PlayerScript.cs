@@ -104,22 +104,25 @@ public class PlayerScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(!on_floor) //acabei de "pousar"
-        { 
-            // eu"amasso" o player, pra dar a impressão de impacto
-            transform.DOKill();            
-            transform.localScale = new Vector3(OriginalScale.x * 1.3f, OriginalScale.y * 0.7f, OriginalScale.z); 
-            transform.DOScale(OriginalScale, 0.2f).SetEase(Ease.InBack);
+        if(collision.collider.GetComponent<Ground>() != null)
+        {
+            if(!on_floor) //acabei de "pousar"
+            { 
+                // eu"amasso" o player, pra dar a impressão de impacto
+                transform.DOKill();            
+                transform.localScale = new Vector3(OriginalScale.x * 1.3f, OriginalScale.y * 0.7f, OriginalScale.z); 
+                transform.DOScale(OriginalScale, 0.2f).SetEase(Ease.InBack);
+            }       
+            on_floor = true;     
+            return;
         }
-
-
-        on_floor = true;
         //não sei se essa é a abordagem mais usada por profissionais, mas utilizei para verificar se eu estou colidindo com um obstáculo, não com o chão
         if(collision.collider.GetComponent<Obstacles>() != null)
         {
             dead = true;
             ls.game_is_running = false;
             ls.GameOver();
+            return;
         }
 
     }
