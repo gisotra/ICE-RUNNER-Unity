@@ -1,0 +1,19 @@
+X -> resolvido/efetuado
+
+[X] - Movimentação do player flúida
+[X] - Componentização (Obstacles) 
+[X] - Utilização de ADDRESSABLES para carregamento eficiente de assets 
+pesados (EX: música de fundo) 
+[X] - Diversidade de obstáculos
+[X] - Porte para controles de consoles
+[X] - Object pooling 
+[X] - Build para webGL
+[ ] - cria uma imagem de tutorial (por último) 
+[X] - a gameplay com dificuldade progressiva 
+[X] - garantir melhor desempenho possível 
+
+Ter colocado máscaras de colisão que não se conversam entre os obstáculos 
+e o chão, ter trocados todos os materiais das sprites para "unlit_material", 
+ter utilizado object pooling e não DESTRUIR nem INSTANCIAR GameObjects durante
+a duração do gameloop fizeram que a gameplay ficasse flúida e o FPS se mantesse 
+constante, sem nenhum gargalo. 

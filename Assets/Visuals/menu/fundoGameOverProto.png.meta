@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 9f516259f1816124e96f04ac704a5fa4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1749407071022228699
+    second: fundoGameOverProto_0
+  - first:
+      213: -8344064890590834327
+    second: fundoGameOverProto_1
+  - first:
+      213: 6962793694267201333
+    second: fundoGameOverProto_2
+  - first:
+      213: -1676278557392684833
+    second: fundoGameOverProto_3
+  - first:
+      213: 3223174129229818590
+    second: fundoGameOverProto_4
+  - first:
+      213: 7424517799411525659
+    second: fundoGameOverProto_5
+  - first:
+      213: 1324272061906605639
+    second: fundoGameOverProto_6
+  - first:
+      213: 1671161782998502107
+    second: fundoGameOverProto_7
+  - first:
+      213: -4252594146178976370
+    second: fundoGameOverProto_8
+  - first:
+      213: -173680306053583267
+    second: fundoGameOverProto_9
+  - first:
+      213: 2005357167016491452
+    second: fundoGameOverProto_10
+  - first:
+      213: 37154285709323840
+    second: fundoGameOverProto_11
+  - first:
+      213: -8692383241341375165
+    second: fundoGameOverProto_12
+  - first:
+      213: 1561261748043889887
+    second: fundoGameOverProto_13
+  - first:
+      213: -7437240604254979945
+    second: fundoGameOverProto_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fundoGameOverProto_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 212
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52bd924a98bd8b7e0800000000000000
+      internalID: -1749407071022228699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fundoGameOverProto_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 231
+        width: 66
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9615685d03de33c80800000000000000
+      internalID: -8344064890590834327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fundoGameOverProto_2
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 231
+        width: 66
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537502779ffc0a060800000000000000
+      internalID: 6962793694267201333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fundoGameOverProto_3
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 212
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8310a8889acb8e0800000000000000
+      internalID: -1676278557392684833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fundoGameOverProto_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 154
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edae8fd1bc30bbc20800000000000000
+      internalID: 3223174129229818590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fundoGameOverProto_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 130
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b182d7e0a9f290760800000000000000
+      internalID: 7424517799411525659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fundoGameOverProto_6
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 38
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746daeb8c62c06210800000000000000
+      internalID: 1324272061906605639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fundoGameOverProto_7
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 130
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda85d599c8213710800000000000000
+      internalID: 1671161782998502107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fundoGameOverProto_8
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 156
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85b81fb720cbf4c0800000000000000
+      internalID: -4252594146178976370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fundoGameOverProto_9
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 73
+        width: 266
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ee13d8ea6f69df0800000000000000
+      internalID: -173680306053583267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fundoGameOverProto_10
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 154
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb93dc3f7b574db10800000000000000
+      internalID: 2005357167016491452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fundoGameOverProto_11
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 130
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e669140aff38000800000000000000
+      internalID: 37154285709323840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fundoGameOverProto_12
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 0
+        width: 38
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34de9480f737e5780800000000000000
+      internalID: -8692383241341375165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fundoGameOverProto_13
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 130
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdcbf85b947baa510800000000000000
+      internalID: 1561261748043889887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fundoGameOverProto_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 156
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798354a131d99c890800000000000000
+      internalID: -7437240604254979945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fundoGameOverProto_0: -1749407071022228699
+      fundoGameOverProto_1: -8344064890590834327
+      fundoGameOverProto_10: 2005357167016491452
+      fundoGameOverProto_11: 37154285709323840
+      fundoGameOverProto_12: -8692383241341375165
+      fundoGameOverProto_13: 1561261748043889887
+      fundoGameOverProto_14: -7437240604254979945
+      fundoGameOverProto_2: 6962793694267201333
+      fundoGameOverProto_3: -1676278557392684833
+      fundoGameOverProto_4: 3223174129229818590
+      fundoGameOverProto_5: 7424517799411525659
+      fundoGameOverProto_6: 1324272061906605639
+      fundoGameOverProto_7: 1671161782998502107
+      fundoGameOverProto_8: -4252594146178976370
+      fundoGameOverProto_9: -173680306053583267
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
