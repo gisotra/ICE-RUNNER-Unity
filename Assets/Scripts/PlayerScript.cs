@@ -1,4 +1,5 @@
 using UnityEngine;
+using DG.Tweening; 
 
 public class PlayerScript : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class PlayerScript : MonoBehaviour
     /*Jump Related*/
     private float jumpStrength = 15.5f;
     private bool on_floor = false;
+
+
     
     /*Movement Related*/
     private float horizontal_speed = 5.5f;
@@ -18,6 +21,7 @@ public class PlayerScript : MonoBehaviour
     /*Death*/
     private Vector3 initialPos;
     private bool dead = false;
+    private Vector3 OriginalScale; 
 
 
     private void Awake()
@@ -26,6 +30,7 @@ public class PlayerScript : MonoBehaviour
         gc = new GameControls();
         ls = GameObject.FindGameObjectWithTag("Main Logic").GetComponent<LogicScript>();
         initialPos = transform.position; 
+        OriginalScale = transform.localScale; //transform é uma abreviação para pegar o componente Transform do meu GameObject
     }
 
 
@@ -62,10 +67,10 @@ public class PlayerScript : MonoBehaviour
         Vector2 moveVec = gc.Gameplay.Move.ReadValue<Vector2>();
         myBody.linearVelocity = new Vector2(moveVec.x * horizontal_speed, myBody.linearVelocity.y); //apenas altero a velocidade horizontal
 
-        if (myBody.linearVelocityY == 0) //estou no chão
+        /*if (myBody.linearVelocityY == 0) //estou no chão
         {
             on_floor = true;
-        }
+        }*/
     }
 
     private void Jump()
@@ -74,6 +79,17 @@ public class PlayerScript : MonoBehaviour
 
         if (on_floor)
         {
+            /*
+            entendendo um pouco mais da biblioteca DOTween, ela aplica efeitos de animação em qualquer valor que eu desejar
+            e aplicar efeitos de durabilidade, intensidade e força da animação (Ex: bounce, Ease In, Ease out, Spring...)
+            */
+            transform.DOKill(); //com isso aqui eu mato as animações de squash anteriores 
+            //eu achato meu player
+
+            //eu estico meu player
+            transform.localScale = new Vector3(OriginalScale.x * 0.5f, OriginalScale.y * 1.3f, OriginalScale.z); 
+            transform.DOScale(OriginalScale, 0.4f).SetEase(Ease.InBack);
+
             myBody.linearVelocity = Vector2.up * jumpStrength;
             on_floor = false;
         }
@@ -88,6 +104,16 @@ public class PlayerScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if(!on_floor) //acabei de "pousar"
+        { 
+            // eu"amasso" o player, pra dar a impressão de impacto
+            transform.DOKill();            
+            transform.localScale = new Vector3(OriginalScale.x * 1.3f, OriginalScale.y * 0.7f, OriginalScale.z); 
+            transform.DOScale(OriginalScale, 0.2f).SetEase(Ease.InBack);
+        }
+
+
+        on_floor = true;
         //não sei se essa é a abordagem mais usada por profissionais, mas utilizei para verificar se eu estou colidindo com um obstáculo, não com o chão
         if(collision.collider.GetComponent<Obstacles>() != null)
         {

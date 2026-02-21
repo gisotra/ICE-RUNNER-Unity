@@ -16,4 +16,11 @@ Ter colocado máscaras de colisão que não se conversam entre os obstáculos
 e o chão, ter trocados todos os materiais das sprites para "unlit_material", 
 ter utilizado object pooling e não DESTRUIR nem INSTANCIAR GameObjects durante
 a duração do gameloop fizeram que a gameplay ficasse flúida e o FPS se mantesse 
-constante, sem nenhum gargalo. 
+constante, sem nenhum gargalo.
+
+Game Juice
+[ ] - trocar o ultimo obst
+[ ] - squash & stretch do player ( usar tweens) 
+[ ] - dar display em animação de fumaça (single time)
+[ ] - explorar a mecânica de "afundar" ( seta pra baixo e ventoinha )
+[ ] - feedback visual de morte 
